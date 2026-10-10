@@ -1,0 +1,42 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# Gmail OAuth credentials and tokens
+backend/credentials.json
+backend/token.json
+credentials.json
+token.json
+
+# Uploaded resumes and user data
+backend/uploads/
+uploads/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Logs and operating system files
+*.log
+.DS_Store
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE settings
+.vscode/
+
+# Python cache directories
+**/__pycache__/
